@@ -22,7 +22,7 @@ load_dotenv()
 logging.getLogger("httpx").setLevel(logging.WARNING)
 
 TOKEN = os.environ.get("BOT_TOKEN")
-ADMIN_ID = 7386570615
+ADMIN_ID = 5479920814
 
 DATA_FILE = "data.json"
 BACKUP_FILE = "backup_data.json"
