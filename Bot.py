@@ -6,7 +6,6 @@ import time
 from datetime import datetime, timedelta
 import asyncio
 import logging
-from dotenv import load_dotenv
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import (
     Application,
@@ -18,10 +17,9 @@ from telegram.ext import (
 )
 import pytz
 
-load_dotenv()
 logging.getLogger("httpx").setLevel(logging.WARNING)
 
-TOKEN = os.environ.get("BOT_TOKEN")
+TOKEN = "7599940827:AAFXTVWfMk6KQUei0D6T_BsHYIQ_iS-D1UU"  # Replace this with your actual bot token
 ADMIN_ID = 5479920814
 
 DATA_FILE = "data.json"
